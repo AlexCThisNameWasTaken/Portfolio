@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Mod 4 Practice in CSS</title>
+		<link rel="icon" type="image/x-icon" href="lego_icon.ico">
+		<style>
+			body {
+				background-image: url("images/lego.png");
+				background-repeat: repeat;
+				font-family: Arial, sans-serif;
+				margin: 0;
+				padding: 0;
+				text-align: center;
+			}
+			
+			header, main, footer {
+				background-color:beige;
+				border-width: 5px;
+				padding: 10px;
+				margin-bottom: 10px;
+				box-shadow: 5px 5px 10px gray;
+				width: 90%;
+				margin: 10px auto;
+			}
+			
+			h1 {
+				font-weight: 800;
+			}
+			
+			h4 {
+				font-family: 'Courier New', monospace;
+				font-style: italic;
+			}
+			
+			p {
+				font-family: 'Times New Roman', serif;
+				color: #000000;
+				font-size: 16px;
+				font-weight: bold;
+			}
+			
+			img {
+				border: 3px solid black;
+				border-radius: 10px;
+				margin: 15px auto;
+			}
+			
+			ul, ol {
+				text-align: left;
+				display: inline-block;
+			}
+			
+			ul {
+				padding-left: 25px;
+			}
+			
+			ul li {
+				margin-bottom: 5px;
+			}
+			
+			ul.custom-bullets {
+				list-style-image: url('images/lego_icon.png');
+			}
+			
+			footer p {
+				text-align: center;
+				font-size: 14px;
+				font-style: italic;
+			}
+			
+			a {
+				color: navy;
+				text-decoration: none;
+				font-weight: bold;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>Module 4 Practice CSS Webpage</h1>
+			<h4>This assignment will be linked into the other pages section of 'Alex Catan's Portfolio.'</h4>
+		</header>
+		<main>
+			<h1>INFORMATION ABOUT THIS PAGE</h1>
+			<p>If you look at the top of your browser at the page that you are currently sitting on to view this,
+			you will notice a little icon on the browser. Its called a Favicon and quite honestly took a minute
+			to put up there.</p>
+			<p>I am proud of that favicon</p>
+			
+			<hr>
+			
+			<h3>Below you will see an image. </h3>
+			<p>It's called an image map. It has some clickable elements on it so click around and see if you can
+			find them all. (There's three of them.)</p>
+			
+			<img src="images/lego_brick_sizes.png" alt="A picture that includes various different sizes of lego bricks." usemap="#legomap">
+			<map name="legomap">
+				<area shape="rect" coords="5,25,30,50" alt="1 by 1 lego piece" href="1By1LegoPiece.html" target="_blank">
+				<area shape="rect" coords="50,20,90,50" alt="2 by 1 lego piece" href="2By1LegoPiece.html" target="_blank">
+				<area shape="rect" coords="105,15,155,55" alt="3 by 1 lego piece" href="3By1LegoPiece.html" target="_blank">
+			</map>
+			
+			<p>Although the image below does not include a link to all the blocks, it does include a link to the following.</p>
+			<ol type="I">
+				<li>The 1 by 1 block</li>
+				<li>The 2 by 1 block</li>
+				<li>The 3 by 1 block</li>
+			</ol>
+			
+			<br>
+			
+			<p>The image additionally includes the following.</p>
+			<ul style="list-style-type:square;">
+				<li>The 4 by 1 block</li>
+				<li>The 6 by 1 block</li>
+				<li>The 2 by 2 block</li>
+				<li>The 4 by 2 block</li>
+				<li>The 4 by 2 block with graphics on the sides</li>
+			</ul>
+			
+			<br>
+			
+			<p>The total list of items on the image is as follows:</p>
+			<ul class="custom-bullets">
+				<li>The 1 by 1 block</li>
+				<li>The 2 by 1 block</li>
+				<li>The 3 by 1 block</li>
+				<li>The 4 by 1 block</li>
+				<li>The 6 by 1 block</li>
+				<li>The 2 by 2 block</li>
+				<li>The 4 by 2 block</li>
+				<li>The 4 by 2 block with graphics on the sides</li>
+			</ul>
+		</main>
+		<footer>
+			<p><a href="mailto:28cataal@students.lovelandschools.org">28cataal@students.lovelandschools.org</a><br><br>
+			I certify that all work published on Github is my own</p>
+		</footer>
+		
+	</body>
+</html>
