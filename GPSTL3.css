@@ -1,5 +1,5 @@
 body {
-	background-image: url(assets/sky.png);
+	background-image: url(sky.png);
 	font-family: Helvetica Arial sans-serif;
 }
 
@@ -10,7 +10,7 @@ header {
 	height: 60px;
 	text-align: center;
 	padding-top: 15px;
-	background-image: url(assets/pasture.png);
+	background-image: url(pasture.png);
 	background-repeat: no-repeat;
 	background-position: right;
 	line-height:400%;
@@ -74,7 +74,7 @@ dt {
 
 
 ul {
-	list-style-image: url(assets/marker.gif);
+	list-style-image: url(marker.gif);
 }
 
 
@@ -90,7 +90,7 @@ ul {
 
 
 #homeImage {
-	background-image: url(assets/sunsetHorse.png);
+	background-image: url(sunsetHorse.png);
 	height: 300px;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -108,7 +108,7 @@ ul {
 
 
 #boardImage {
-	background-image: url(assets/fenceline.png);
+	background-image: url(fenceline.png);
 	height: 300px;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -116,7 +116,7 @@ ul {
 
 
 #trainingImage {
-	background-image: url(assets/BayBella.png);
+	background-image: url(BayBella.png);
 	height: 300px;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
