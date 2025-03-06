@@ -1,0 +1,123 @@
+body {
+	background-image: url(assets/sky.png);
+	font-family: Helvetica Arial sans-serif;
+}
+
+
+header {
+	background-color: #00B386;
+	color: #FFFFFF;
+	height: 60px;
+	text-align: center;
+	padding-top: 15px;
+	background-image: url(assets/pasture.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	line-height:400%;
+	text-indent: 1em;
+	height: 80px;
+}
+
+
+nav {
+	background-color: #FFFFFF;
+	padding: 10px;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+nav a {
+	text-decoration: none;
+}
+
+
+main {
+	padding-top: 1px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	display: block;
+}
+
+
+footer {
+	padding: 15px;
+	text-align: center;
+	font-size: 75%;
+	font-style: italic;
+	font-family: Georgia;
+	
+}
+	
+h1 {
+	margin-bottom: 0;
+	font-family: Georgia;
+}
+
+
+h2 {
+	color: #00664D;
+	text-shadow: 1px 1px #CCCCCC;
+	font-family: Georgia;
+}
+
+
+h3 {
+	font-family: Georgia;
+}
+
+
+dt {
+	color: #00664D;
+}
+
+
+ul {
+	list-style-image: url(assets/marker.gif);
+}
+
+
+.barn {
+	color: #70DBDB;
+	font-weight: bold;
+}
+
+
+#contact {
+	font-size: 90%;
+}
+
+
+#homeImage {
+	background-image: url(assets/sunsetHorse.png);
+	height: 300px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+
+.wrapper {
+	width: 80%;
+	background-color: #FFFFFF;
+	min-width: 900px;
+	max-width: 2050px;
+	box-shadow: 4px 4px;
+	margin: auto;
+}
+
+
+#boardImage {
+	background-image: url(assets/fenceline.png);
+	height: 300px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+
+#trainingImage {
+	background-image: url(assets/BayBella.png);
+	height: 300px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
