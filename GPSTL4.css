@@ -91,7 +91,7 @@ main {
 }
 
 main ul {
-	list-style-image: url(assets/marker.gif);
+	list-style-image: url(marker.gif);
 }
 
 footer {
