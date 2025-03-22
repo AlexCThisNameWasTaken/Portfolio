@@ -1,0 +1,258 @@
+#contact {
+	font-size: 90%;
+}
+
+#homeImage {
+	background-image: url(assets/sunsetHorse.png);
+	height: 300px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin-left: 190px;
+}
+
+#boardImage {
+	background-image: url(assets/fenceline.png);
+	height: 300px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin-left: 190px;
+}
+
+#trainingImage {
+	background-image: url(assets/BayBella.png);
+	height: 300px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin-left: 190px;
+}
+
+
+/*mobile view*/
+@media only screen and (max-width: 37.5em) {
+	#mobile {
+		display: inline;
+	}
+	
+	#desktop {
+		display: none;
+	}
+	
+	main {
+		padding-top: 0.1em;
+		padding-bottom: 0.1em;
+		padding-left: 1em;
+		padding-right: 1em;
+		font-size: 90%;
+	}
+	
+	h1 {
+		font-size: 2em;
+	}
+	
+	nav {
+		padding: 0;
+	}
+	
+	nav li {
+		display: block;
+		margin: 0;
+		border-bottom: 2px solid #330000
+	}
+	
+	nav a {
+		display: block;
+	}
+	
+	#homeImage, #boardImage, #trainingImage {
+		display: none;
+		background-image: none;
+		height: 0;
+	}
+}
+
+
+/*desktop view to make mobile iphone-number link dissapear*/
+@media only screen and (min-width: 37.5em) {
+	#mobile {display: none;}
+}
+
+
+@media only screen and (max-width: 64em) {
+	body {
+		margin: 0;
+		background-color: #FFFFFF;
+	}
+	
+	#wrapper {
+		min-width: 0;
+		width: auto;
+		box-shadow: none;
+		border: none;
+	}
+	
+	header {
+		padding-top: 0.5em;
+		padding-bottom: 0.5em;
+		padding-left: 0;
+		height: auto;
+	}
+	
+	h1 {
+		letter-spacing: 0.1em;
+	}
+	
+	main {
+		margin-left: 0;
+	}
+	
+	nav {
+		float: none;
+		width: auto;
+		text-align: center;
+		padding: 0.5em;
+	}
+	
+	nav li {
+		display: inline;
+		padding-top: 0.25em;
+		padding-bottom: 0.25em;
+		padding-left: 0.75em;
+		padding-right: 0.75em;
+	}
+	
+	#homeImage, #boardImage, #trainingImage {
+		margin-left: 0;
+		height: 200px;
+	}
+	
+	footer {
+		margin-left: 0;
+	}
+}
+
+
+
+
+* {
+	box-sizing: border-box;
+}
+
+header, main, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+
+body {
+	background-color: #ffffff;
+	font-family: Helvetica Arial sans-serif;
+}
+
+header {
+	background-color: #00B386;
+	color: #FFFFFF;
+	height: 175px;
+	text-align: center;
+	padding-top: 30px;
+	padding-left: 3em;
+	background-image: url(assets/pasture.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	line-height:400%;
+	text-indent: 1em;
+}
+
+nav {
+	padding: 10px;
+	font-weight: bold;
+	padding: 1.5em;
+	font-size: 120%;
+	float: left;
+	width: 160px;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+nav a:link {
+	color: #00664d;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+	font-size: 1.2em;
+}
+
+nav a:visited {
+	color: #7a7a52;
+}
+
+nav a:hover {
+	color: #ffffff;
+}
+
+main {
+	padding-top: 1px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	display: block;
+	background-color: #ffffff;
+	margin-left: 190px;
+	padding-left: 30px;
+}
+
+main ul {
+	list-style-image: url(assets/marker.gif);
+}
+
+footer {
+	padding: 15px;
+	text-align: center;
+	font-size: 75%;
+	font-style: italic;
+	font-family: Georgia;
+	margin-left: 190px;
+	background-color: #ffffff;
+}
+	
+h1 {
+	margin-bottom: 0;
+	font-family: Georgia;
+	margin-top: 0;
+	font-size: 3em;
+	letter-spacing: 0.25em;
+}
+
+h2 {
+	color: #00664D;
+	text-shadow: 1px 1px #CCCCCC;
+	font-family: Georgia;
+}
+
+h3 {
+	font-family: Georgia;
+}
+
+dt {
+	color: #00664D;
+}
+
+
+
+.barn {
+	color: #70DBDB;
+	font-weight: bold;
+}
+
+.wrapper {
+	width: 80%;
+	background-color: #0c5442;
+	min-width: 900px;
+	max-width: 2050px;
+	box-shadow: 4px 4px;
+	margin: auto;
+	background-image: linear-gradient(#ffffff, #0c5442);
+	border: 1.5pt solid #003300;
+}
