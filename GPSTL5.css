@@ -3,7 +3,7 @@
 }
 
 #homeImage {
-	background-image: url(assets/sunsetHorse.png);
+	background-image: url(sunsetHorse.png);
 	height: 300px;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -11,7 +11,7 @@
 }
 
 #boardImage {
-	background-image: url(assets/fenceline.png);
+	background-image: url(fenceline.png);
 	height: 300px;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -19,7 +19,7 @@
 }
 
 #trainingImage {
-	background-image: url(assets/BayBella.png);
+	background-image: url(BayBella.png);
 	height: 300px;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
