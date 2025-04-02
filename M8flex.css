@@ -1,0 +1,47 @@
+nav {
+	background-color: black;
+	padding: 0px;
+	margin: 0px;
+}
+nav ul {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	list-style-type; none;
+	margin: 0;
+	padding: 0;
+}
+nav ul li a {
+	color: white;
+}
+li a {
+	width: 20%;
+	height: 20%;
+}
+
+main {
+	display: flex;
+}
+
+article {
+	width: 60%;
+	margin: 1.5em 2.52525% 0 2.0202%;
+}
+article img {
+	max-width: 100%;
+	margin-bottom: 1em;
+}
+
+aside {
+	width: 40%;
+	padding: 2.0202%;
+	max-width: 200px;
+	min-height: 180px;
+	background-color: #ffebc6;
+	margin: 1.5em 2.0202% 0 0;
+	height: auto;
+}
+
+footer {
+	background-color: pink;
+}
