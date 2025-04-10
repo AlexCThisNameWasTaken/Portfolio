@@ -1,0 +1,59 @@
+#nav_menu ul {
+	display: flex;    				/* make the ul list a flexbox */
+	flex-basis: 100%;				/* full width of page */
+	justify-content: space-around;	/* allocate space evenly */
+	list-style-type: none;
+	background-color: black;
+	margin: 0;
+	padding: 0;
+}
+
+#nav_menu a {
+	color: white;
+}
+
+#nav_menu ul li {
+	flex-basis: 20%; 
+} 									/* each item occupies 20% of flexbox */
+
+#galGrid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
+	grid-gap: 20px;
+	align-items: stretch;
+	margin-bottom: 20px;
+}
+
+#galGrid img {
+	border: 1px solid #CCCCCC;
+	box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.3);
+	max-width: 100%;
+}
+
+main {
+	display: flex;
+}									/* makes the main element a flexbox */
+
+article {
+	flex-basis: 60%;				/* will be 60% of available width */
+	margin: 1.5em 2.52525% 0 2.0202%;
+}	
+
+article img {
+	max-width: 100%; 
+	margin-bottom: 1em;
+}									/* image will be full width or article */
+
+aside { 
+	flex-basis: 40%;				/* will be 40% of available width.  60+40=100 */
+	padding: 2.0202%;
+	max-width: 200px;				/* See what happens if you remove or change max width here.. */
+	min-height: 180px;
+	background-color: #ffebc6;
+	margin: 0 2.0202% 0 0;
+}
+
+footer {
+	background-color: pink;
+}
+			
