@@ -3,7 +3,7 @@
 }
 
 #homeImage {
-	background-image: url(assets/sunsetHorse.png);
+	background-image: url(sunsetHorse.png);
 	height: 300px;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -11,7 +11,7 @@
 }
 
 #boardImage {
-	background-image: url(assets/fenceline.png);
+	background-image: url(fenceline.png);
 	height: 300px;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -19,7 +19,7 @@
 }
 
 #trainingImage {
-	background-image: url(assets/BayBella.png);
+	background-image: url(BayBella.png);
 	height: 300px;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -161,7 +161,7 @@ header {
 	text-align: center;
 	padding-top: 30px;
 	padding-left: 3em;
-	background-image: url(assets/pasture.png);
+	background-image: url(pasture.png);
 	background-repeat: no-repeat;
 	background-position: right;
 	line-height:400%;
@@ -212,7 +212,7 @@ main {
 }
 
 main ul {
-	list-style-image: url(assets/marker.gif);
+	list-style-image: url(marker.gif);
 }
 
 footer {
